@@ -66,3 +66,5 @@ Then go back to MAMP Preferences and change MySQL port to 3306 which is the port
 <img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/MAMP/6.png" width="50%" height="50%">
 
 Now you can go back to your browswer and refresh and it should work. 
+
+You will also need to load data into the database you just created. I will leave that work for you. It is similar to how it works on the remote server. Just make sure MAMP has started whenever you want to do any operation about MySQL over your terminal.
