@@ -18,8 +18,8 @@ The third button will turn green like this:
 
 <img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/MAMP/3.png" width="50%" height="50%">
 
-#####4. TTest whether your server is referencing the correct files
-Going to "http://localhost:8000/<secret>/pa<num>/" in your browser. In my case it is "http://localhost:8000/rg4mmsj/pa1/", here is the screenshot: 
+#####4. Test whether your server is referencing the correct files
+Going to "http://localhost:8000/secret/pa#/" in your browser. In my case it is "http://localhost:8000/rg4mmsj/pa1/", here is the screenshot: 
 
 <img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/MAMP/4.png" width="50%" height="50%">
 
