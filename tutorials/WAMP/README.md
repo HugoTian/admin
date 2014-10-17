@@ -15,7 +15,7 @@ Open up httpd.conf of WAMP, as shown in the screenshot.
 
 <img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/WAMP/2.png" width="50%" height="50%">
 
-Then search for `DocumentRoot` in the file, find the one with a path which by default should be "***/wamp/www/" and replace that with where your index.php is located. 
+Then search for `DocumentRoot` in the file, find the one with a path which by default should be `....../wamp/www/` and replace that with where your index.php is located. 
 
 <img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/WAMP/3.png" width="50%" height="50%">
 
@@ -44,12 +44,12 @@ We need to set up the user and database here. Go to "PHPMyAdmin"
 
 Under "Users" Tab, add a new user, fill in username which correspond to the one you used in your code, choose localhost, fill in password (again should match what is in your PHP code), ignore "generate password", check all checkboxs in "Database for user" and "Global privileges" and scroll down to the bottom of the page to click ok. Here is a screenshot for reference:
 
-<img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/WAMP/10.png" width="50%" height="50%">
+<img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/WAMP/10.png" width="75%" height="75%">
 
 ##### 5. Run it! 
 So far you should have everything set up to run the code, use your browser to go to "localhost/secret/pa#". Screenshot:
 
-<img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/WAMP/11.png" width="50%" height="50%">
+<img src="https://github.com/EECS485-Fall2014/staff/blob/master/tutorials/WAMP/11.png" width="75%" height="75%">
 
 ### Trouble-shooting
 Please read Apache -> Apache error/access log carefully.
