@@ -1,4 +1,7 @@
 # MAMP (Mac, Apache, MySQL, PHP)
+
+In this tutorial I will cover step by step how to host EECS 485 PHP projects on Windows locally. I cloned my PA1 repo to do this demo on Win7. 
+
 ### Installation:
 http://www.mamp.info/en/downloads/
 

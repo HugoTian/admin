@@ -1,4 +1,7 @@
 # WAMP (Windows, Apache, MySQL, PHP)
+
+In this tutorial I will cover step by step how to host EECS 485 PHP projects on Mac locally. I cloned my PA1 repo to do this demo.
+
 ### Installation:
 http://www.wampserver.com/en/
 
