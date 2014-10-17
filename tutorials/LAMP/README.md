@@ -55,7 +55,7 @@ If you do not meet this, that is perfect. If you meet this, I solved it by chang
 
 ##### 6. Load data into MySQL
 
-Up to now, Apache is hosting your site perfectly. But you will need to load datatables into MySQL. You can use `http://localhost/phpmyadmin/` to do that. I will leave this for you to figure out yourselves.
+Up to now, Apache is hosting your site perfectly. But you will need to load datatables into MySQL. You can use `http://localhost/phpmyadmin/` to do that. I will leave this for you to figure out yourselves. (You can always search for tutorials or other information online about this)
 
 ### Trouble-shooting
 Click "Open Access/Error Log" under "Configure" of Apache to view logs. Please read it carefully before asking.

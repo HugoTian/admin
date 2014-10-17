@@ -54,6 +54,10 @@ So far you should have everything set up to run the code, use your browser to go
 
 <img src="https://github.com/EECS485-Fall2014/admin/blob/master/tutorials/WAMP/11.png" width="75%" height="75%">
 
+##### 6. Load data into MySQL
+
+Up to now, Apache is hosting your site perfectly. But you will need to load datatables into MySQL. You can use PHPMyAdmin to do that. I will leave this for you to figure out yourselves. (You can always search for tutorials or other information online about this)
+
 ### Trouble-shooting
 Please read Apache -> Apache error/access log carefully.
 
