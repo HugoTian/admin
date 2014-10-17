@@ -210,22 +210,22 @@ including where to, how to, and what to check.
 ## Submitting Your Assignment
 
 In the `README.md` at the root of your repository please provide the following details:
-
+* **Link to Homepage (We will deduct you by 10 points if you do not have this)**
 * Group Name (if you have one)
 * List `User Name (uniqname): "agreed upon" contributions`.
 * Details about how and if you deviated from this spec - avoid if possible.
 * Extra details about how to clone and run your code - simple as possible.
 * Anything else you want us to know, like how many late days you took.
-* The formatting is not critical, we just need the information.
 
 ```
+Link to Homepage:
+  http://eecs485 ...
 Group Name:   
   Rabid Ocelots
 Members:
   Otto Sipe (ottosipe): setup the database, setup the routes, did the project alone  
   ...
 Details: 
-  The homepage URL for this project is ...
   We called our /pic endpoint /foto
   We implemented the extra credit(2)
 Deploy: 
