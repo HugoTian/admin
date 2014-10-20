@@ -59,7 +59,9 @@ So far you should have everything set up to run the code, use your browser to go
 Up to now, Apache is hosting your site perfectly. But you will need to load datatables into MySQL. You can use PHPMyAdmin to do that. I will leave this for you to figure out yourselves. (You can always search for tutorials or other information online about this)
 
 ### Trouble-shooting
-Please read Apache -> Apache error/access log carefully.
+Please read Apache -> Apache error/access log carefully. Also when asking please provide details from the logs.
+
+Make sure you have the file `.htaccess` in the folder as `index.php`, if not, you can find them on the remote server. Just copy the content over.
 
 ### Miscellaneous
 You can turn off PHP debug info by going to PHP->PHP settings.

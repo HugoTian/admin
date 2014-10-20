@@ -60,6 +60,8 @@ Up to now, Apache is hosting your site perfectly. But you will need to load data
 ### Trouble-shooting
 Click "Open Access/Error Log" under "Configure" of Apache to view logs. Please read it carefully before asking.
 
+Make sure you have the file `.htaccess` in the folder as `index.php`, if not, you can find them on the remote server. Just copy the content over.
+
 ### Miscellaneous
 ##### 1. How to open the application again after you quit it?
 Just for the first time you will need to do `sudo chmod +x /opt/lampp/manager-linux.run` through your terminal, afterwards you can start it by `sudo /opt/lampp/manager-linux.run`.
