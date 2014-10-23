@@ -28,8 +28,6 @@ Going to "http://localhost:8000/secret/pa#/" in your browser. In my case it is "
 
 The MySQL error shown is expected, we will work on this later. It means that your PHP code is running successfully, but not able to connect to MySQL since there are no username/password or database in MySQL which are specified in your PHP code yet.
 
-If you experience something else, please refer to logs under `/Applications/MAMP/logs/`.
-
 ##### 5. Create MySQL database and user
 
 To create MySQL database and user, you need to log into MySQL as root user. In your terminal use this command:
@@ -73,3 +71,9 @@ Now you can go back to your browswer and refresh and it should work.
 ##### 6. Load data into MySQL
 
 You will also need to load data into the database you just created. I will leave that work for you. It is similar to how it works on the remote server. You can log into MySQL in terminal with ``/Applications/MAMP/Library/bin/mysql --host=localhost -u<username> -p<password>`. Just make sure MAMP has started whenever you want to do any operation about MySQL over your terminal.
+
+
+### Trouble-shooting
+Please refer to logs under `/Applications/MAMP/logs/` and read carefully before asking. Also when asking please provide details from the logs.
+
+Make sure you have the file `.htaccess` in the folder as `index.php`, if not, you can find them on the remote server. Just copy the content over.
