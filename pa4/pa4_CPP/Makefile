@@ -4,7 +4,7 @@ CC = g++
 LD = g++
 
 CFLAGS = -pedantic -Wall -c
-SERVER_LFLAGS = -ldl -lpthread
+SERVER_LFLAGS = -ldl -pthread -lpthread
 INDEXER_LFLAGS = 
 
 SERVER_OBJS = server_main.o Index_server.o mongoose.o
@@ -21,7 +21,7 @@ debug: INDEXER_LFLAGS += -g
 debug: $(SERVER) $(INDEXER)
 
 $(SERVER): $(SERVER_OBJS)
-	$(LD) $(SERVER_LFLAGS) $(SERVER_OBJS) -o $(SERVER)
+	$(LD) $(SERVER_OBJS) -o $(SERVER) $(SERVER_LFLAGS)
 
 server_main.o: server_main.cpp Index_server.h
 	$(CC) $(CFLAGS) server_main.cpp
@@ -30,7 +30,7 @@ Index_server.o: Index_server.cpp Index_server.h
 	$(CC) $(CFLAGS) Index_server.cpp
 
 mongoose.o: mongoose.c mongoose.h
-	gcc -c mongoose.c
+	gcc -c mongoose.c 
 
 $(INDEXER): $(INDEXER_OBJS)
 	$(LD) $(INDEXER_LFLAGS) $(INDEXER_OBJS) -o $(INDEXER)

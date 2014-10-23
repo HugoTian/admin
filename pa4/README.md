@@ -211,6 +211,8 @@ including where to, how to, and what to check.
 
 In the `README.md` at the root of your repository please provide the following details:
 * **Link to Homepage (We will deduct you by 10 points if you do not have this)**
+* Specify whether you used Java or C++ to create files
+* Specify the database table where you've stored the images
 * Group Name (if you have one)
 * List `User Name (uniqname): "agreed upon" contributions`.
 * Details about how and if you deviated from this spec - avoid if possible.
