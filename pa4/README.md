@@ -24,7 +24,7 @@ that you can build the entire index in memory.)
 For query-time processing, when a user enters a search query, you will use this loaded in-memory
 inverted index to rank photos for the user. You should load the
 following XML file of 200 photos with captions into your image
-database (perhaps the photo table). You can reuse the PA1 database for this project. 
+database (perhaps the photo table). You can reuse the PA1 or PA2 database for this project. 
 These files are available in the github repo for this project at the following locations:
 
 * XML file to load: resources/search.xml
