@@ -81,7 +81,7 @@ For such nodes you will basically distribute all of its outgoing PageRank in the
 Make sure to remove all self edges before processing data.
 
 You should implement two different stopping criteria: stop after K iterations, 
-and stop after every node changes no more than X. The values X and K should be command-line arguments of 
+and stop after every node changes no more than X (X=|curr-prev|/prev). The values X and K should be command-line arguments of 
 your tool that we can change.
 
 ### Result Output
@@ -184,7 +184,7 @@ Now calculate hub and authority values iteratively. After every iteration of the
 renormalize all values so that they sum to 1.
 
 * You should implement two different stopping criteria: stop after K iterations, and stop after every node changes 
-no more than `X`. The values X and K should be command-line arguments of your tool that we can change.
+no more than `X` (X=|curr-prev|/prev). The values X and K should be command-line arguments of your tool that we can change.
 
 * The running time of computing hub and authority scores should be about 10 minutes. If your program is taking much longer than this, you likely need to optimize your code.
 
