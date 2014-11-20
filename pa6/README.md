@@ -1,6 +1,8 @@
 # Assignment 6: The Next Great Search Engine
 ### Due Thurs, Dec 4, 2014, at 11:59 PM
 
+There are no late days for this assignment.
+
 In this assignment you will build an integrated Web search engine that has several features:
 * Ranking based on both tf-idf and PageRank scoring
 * Indexing implemented with MapReduce so it can scale to very large corpus sizes
@@ -77,7 +79,11 @@ the output files from your inverted index MapReduce program should be stored in 
 
 	eecs485pa6pr.sh
 
+For this, you will have to commit your hadoop-example directory in your repo. For this, remove the dataset directory (because it's very large!) and commit the rest of the hadoop-example directory with your code files to your github repo.
+
 Output files from your PageRank (non-MapReduce) program should be stored in pa6_secretString/proutput. Make sure if the scripts run OK when we type the same script repeatedly. 
+
+We will deduct you by 5 points if you do not follow the folder structure properly.
 
 You should make the cleaning task include removal of old output directories, etc. 
 The example as to how to run MapReduce program is included in the code we provide.  
@@ -93,7 +99,7 @@ and
 
 ## Submitting Your Assignment
 
-Please keep your proutput and invoutput in eecs server, and specify the path in README.
+Please keep your proutput and invoutput in eecs server, and specify the path in README. 
 
 Put your scripts and java source code you made in pa6_secretString directory. 
 You can put MapReduce program or related library in any other place, but please keep your pa6_secretString directory 
@@ -137,7 +143,7 @@ In the `README.md` at the root of your repository please provide the following d
 * List `User Name (uniqname): "agreed upon" contributions`.
 * Details about how and if you deviated from this spec - avoid if possible.
 * Extra details about how to clone and run your code - simple as possible.
-* Anything else you want us to know, like how many late days you took.
+* Anything else you want us to know.
 * The formatting is not critical, we just need the information.
 
 ```
