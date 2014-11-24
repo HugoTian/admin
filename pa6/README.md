@@ -89,7 +89,7 @@ You should make the cleaning task include removal of old output directories, etc
 The example as to how to run MapReduce program is included in the code we provide.  
 Modify them appropriately following the instructions here.
 
-Also, we should be able to see the results by typing
+Also, we should be able to see the results of running your scripts by typing:
 
 		cat invoutput/*
 
@@ -97,13 +97,23 @@ and
 
 		cat proutput/*
 
+
+## Important Directories and Files in Submission
+
+### Github
+
+* Your MapReduce code will most likely be in hadoop-example/mysrc directory. Commit your entire hadoop-example directory after removing the hadoop-example/dataset directory to Github. You need to remove hadoop-example/dataset because the files there are huge and will not allow you to commit. Mention the path to this directory relative to your root in Github in your README.
+* Add the directory with your Pagerank source code to Github. Mention the directory name in your README. 
+* As listed above, you should have scripts eecs485pa6inv.sh and eecs485pa6pr.sh in your root Github directory that when run, will compute the Pagerank and Inverted Index respectively. These scripts should use the code in hadoop-example and your Pagerank code to generate the desired output.
+
+### Server
+
+* Please keep the files that have your inverted index (invoutput) in the eecs server and mention the path in README. This is the output of your Hadoop code and we will check this to make sure you have computed your inverted index properly.
+* Please keep the files that have your Pagerank output (proutput) in the eecs server and mention the path in README. This is the output of your Pagerank code and we will check this to make sure you have computed the pagerank values correctly.
+
 ## Submitting Your Assignment
 
-Please keep your proutput and invoutput in eecs server, and specify the path in README. 
-
-Put your scripts and java source code you made in pa6_secretString directory. 
-You can put MapReduce program or related library in any other place, but please keep your pa6_secretString directory 
-well organized for us to grade faster.
+Again, please keep your proutput and invoutput in eecs server, and specify the path in README. Put your scripts and java source code you made in pa6_secretString directory in Github. You can put MapReduce program or related library in any other place, but please keep your pa6_secretString directory well organized for us to grade faster.
 
 The desired format of the output files is shown below, and the format will not be quite 
 different from the one we followed in the previous assignment.
