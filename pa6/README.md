@@ -1,5 +1,5 @@
 # Assignment 6: The Next Great Search Engine
-### Due Thurs, Dec 4, 2014, at 11:59 PM
+### Due Saturday, Dec 6, 2014, at 11:59 PM
 
 There are no late days for this assignment.
 
